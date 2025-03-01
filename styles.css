@@ -66,16 +66,17 @@ p {
     flex-direction: column;
         width: 100%;
         height: 100%;
+        text-align: center;
     }
     .left-section {
         width: 100%;
-        padding: 20px;
+        padding: 0px;
         background-color: #030f0f;
         color: #00df82;
     }
     .right-section {
         width: 100%;
-        padding: 20px;
+        padding: 0px;
         background-color: #00df82;
         color: #030f0f;
     }
