@@ -1,0 +1,160 @@
+*{
+    overflow-x: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00df82;;
+}
+
+.profile{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.left-section {
+    width: 50%;
+    padding: 20px;
+    background-color: #030f0f;
+    color: #00df82;
+}
+
+a{
+    color: #00df82;
+    text-decoration: none;
+}
+
+.right-section {
+    width: 50%;
+    padding: 20px;
+    background-color: #00df82;
+    color: #030f0f;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* MOBILE PHONE STYLES */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        display: flex;
+    flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .left-section {
+        width: 100%;
+        padding: 20px;
+        background-color: #030f0f;
+        color: #00df82;
+    }
+    .right-section {
+        width: 100%;
+        padding: 20px;
+        background-color: #00df82;
+        color: #030f0f;
+    }
+
+    
+}
+
+/* TABLET STYLES */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        display: flex;
+    flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .left-section {
+        height: 100%;
+        width: 50%;
+        padding: 20px;
+        background-color: #030f0f;
+        color: #00df82;
+    }
+    .right-section {
+        height: 100%;
+        width: 50%;
+        padding: 20px;
+        background-color: #00df82;
+        color: #030f0f;
+    }
+    
+}
+
+/* DESKTOP STYLES */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body{
+        background-color: aliceblue;
+    }
+    .container {
+        display: flex;
+    flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .left-section {
+        width: 50%;
+        padding: 20px;
+        background-color: #030f0f;
+        color: #00df82;
+    }
+    .right-section {
+        height: 100vh;
+        width: 50%;
+        padding: 20px;
+        background-color: #00df82;
+        color: #030f0f
+    }
+    
+}
+
+/* LARGE SCREEN STYLES */
+@media screen and (min-width: 1025px) {
+    .container {
+        display: flex;
+    flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .left-section {
+        height: 100vh;
+        width: 50%;
+        padding: 20px;
+        background-color: #030f0f;
+        color: #00df82;
+    }
+    .right-section {
+        width: 50%;
+        padding: 20px;
+        background-color: #00df82;
+        color: #030f0f
+    }
+    
+}
